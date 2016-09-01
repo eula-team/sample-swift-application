@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import <Eula/Eula.h>
+
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +20,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window makeKeyAndVisible];
+    
+    [ELAManager setAPIKey:@"24b917c026d8f3880996285a5f77c238" apiSecret:@"420b728187baf950278e05a0fb1de879"];
+    [ELAManager setUserIdentifier:@"1490130277463463"];
+    [ELAManager setScrollToBottomEnabled:YES];
+    [ELAManager setAlertOnAgreeEnabled:YES];
+    
+    ViewController *demoViewController = [[ViewController alloc] init];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:demoViewController];
+    self.window.rootViewController = navigationController;
+    
     return YES;
 }
 
@@ -32,10 +48,13 @@
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+    
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+//    [ELAManager activateApp];
+
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
