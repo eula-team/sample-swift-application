@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		875AB9A01D77BFF400C5B614 /* Eula.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 875AB99E1D77BFED00C5B614 /* Eula.framework */; };
-		875AB9A11D77BFF400C5B614 /* Eula.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 875AB99E1D77BFED00C5B614 /* Eula.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		875AB9B81D79B7B600C5B614 /* Eula.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 875AB9B61D79B7B200C5B614 /* Eula.framework */; };
+		875AB9B91D79B7B600C5B614 /* Eula.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 875AB9B61D79B7B200C5B614 /* Eula.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		87EC0F8F1D6A7276000D9AA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC0F8E1D6A7276000D9AA9 /* main.m */; };
 		87EC0F921D6A7276000D9AA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC0F911D6A7276000D9AA9 /* AppDelegate.m */; };
 		87EC0F951D6A7276000D9AA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC0F941D6A7276000D9AA9 /* ViewController.m */; };
@@ -23,7 +23,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				875AB9A11D77BFF400C5B614 /* Eula.framework in Embed Frameworks */,
+				875AB9B91D79B7B600C5B614 /* Eula.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -31,7 +31,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		875AB99E1D77BFED00C5B614 /* Eula.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Eula.framework; sourceTree = "<group>"; };
+		875AB9B61D79B7B200C5B614 /* Eula.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Eula.framework; sourceTree = "<group>"; };
 		87EC0F8A1D6A7276000D9AA9 /* Eula-Sample-Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eula-Sample-Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87EC0F8E1D6A7276000D9AA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		87EC0F901D6A7276000D9AA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				875AB9A01D77BFF400C5B614 /* Eula.framework in Frameworks */,
+				875AB9B81D79B7B600C5B614 /* Eula.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +74,7 @@
 		87EC0F8C1D6A7276000D9AA9 /* Eula-Sample-Application */ = {
 			isa = PBXGroup;
 			children = (
-				875AB99E1D77BFED00C5B614 /* Eula.framework */,
+				875AB9B61D79B7B200C5B614 /* Eula.framework */,
 				87EC0F901D6A7276000D9AA9 /* AppDelegate.h */,
 				87EC0F911D6A7276000D9AA9 /* AppDelegate.m */,
 				87EC0F931D6A7276000D9AA9 /* ViewController.h */,

@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-
 @interface ELAManager : NSObject
 
 + (void)setAPIKey:(NSString *)apiKey apiSecret:(NSString *)apiSecret;

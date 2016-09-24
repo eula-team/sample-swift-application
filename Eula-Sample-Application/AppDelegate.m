@@ -24,7 +24,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     [self.window makeKeyAndVisible];
     
-    [ELAManager setAPIKey:@"24b917c026d8f3880996285a5f77c238" apiSecret:@"420b728187baf950278e05a0fb1de879"];
+    [ELAManager setAPIKey:@"ca827d67c023d781875026ece5d66cc5" apiSecret:@"4354029502069896edbfb4d97fcb1002"];
     [ELAManager setUserIdentifier:@"1490130277463463"];
     [ELAManager setScrollToBottomEnabled:YES];
     [ELAManager setAlertOnAgreeEnabled:YES];
@@ -53,7 +53,7 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-//    [ELAManager activateApp];
+    [ELAManager activateApp];
 
 }
 
